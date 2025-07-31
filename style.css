@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-detail {
+    border: 1px solid #ddd;
+    padding: 20px;
+    max-width: 500px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
